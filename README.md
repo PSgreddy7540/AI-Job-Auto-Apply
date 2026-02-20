@@ -8,7 +8,7 @@
 
 ## 📋 Overview
 
-AI-powered job application automation platform that automatically matches your resume against job postings and applies to positions that meet your criteria (70-80% keyword match threshold).
+AI-powered job application automation platform that automatically matches your resume against job postings and applies to positions that meet your criteria (90-100% keyword match threshold).
 
 **Key Features:**
 - 📄 Resume upload & NLP parsing (PDF/DOCX support)
