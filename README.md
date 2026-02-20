@@ -160,7 +160,7 @@ The platform uses TF-IDF vectorization + cosine similarity:
 1. **Resume Parsing**: Extract skills, keywords, experience
 2. **Job Analysis**: Extract requirements and keywords
 3. **Similarity Score**: Calculate using cosine similarity (0-100%)
-4. **Threshold Filter**: Match if score >= configured threshold (70-80%)
+4. **Threshold Filter**: Match if score >= configured threshold (90-100%)
 5. **Auto-Apply**: Submit application if criteria met
 
 ## 📈 Performance
@@ -212,7 +212,7 @@ MIT License - See LICENSE file for details
 
 **Pavankumar Greddy** - Backend Engineer at Meta
 - GitHub: [@PSgreddy7540](https://github.com/PSgreddy7540)
-- LinkedIn: [Pavankumar Greddy](https://linkedin.com/in/pavankumar-greddy)
+- LinkedIn: [Ganesh Reddy](https://www.linkedin.com/in/ganeshreddy-p-aa6810335/)
 
 ## ⭐ Show your support
 
@@ -224,4 +224,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, open an issue on GitHub or email: pavankumar.greddy@example.com
+For support, open an issue on GitHub or email: Saiganeshreddy986@gmail.com
