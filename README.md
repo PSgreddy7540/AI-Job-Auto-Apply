@@ -13,7 +13,7 @@ AI-powered job application automation platform that automatically matches your r
 **Key Features:**
 - 📄 Resume upload & NLP parsing (PDF/DOCX support)
 - 🔍 Real-time job scraping from LinkedIn, Indeed, etc.
-- 🤖 AI-powered keyword matching (70-80% threshold configurable)
+- 🤖 AI-powered keyword matching (80-90% threshold configurable)
 - ✅ Auto-apply to matching jobs
 - 📊 Live dashboard with match analytics
 - 📧 Email notifications for successful applications
