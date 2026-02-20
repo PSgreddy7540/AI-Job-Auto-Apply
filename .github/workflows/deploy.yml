@@ -45,16 +45,16 @@ jobs:
       
       - name: Build Docker images
         run: |
-          docker-compose build
+          docker compose build
       
       - name: Test Docker deployment
         run: |
-          docker-compose up -d
+          docker compose up -d
           sleep 30
           echo "Testing services..."
-          docker-compose ps
-          docker-compose logs backend
-          docker-compose down
+          docker compose ps
+          docker compose logs backend
+          docker compose down
   
   deploy-success:
     runs-on: ubuntu-latest
@@ -71,6 +71,6 @@ jobs:
           echo "To run locally:"
           echo "  git clone https://github.com/PSgreddy7540/AI-Job-Auto-Apply.git"
           echo "  cd AI-Job-Auto-Apply"
-          echo "  docker-compose up -d"
+          echo "  docker compose up -d"
           echo ""
           echo "Access the application at http://localhost:8000"
