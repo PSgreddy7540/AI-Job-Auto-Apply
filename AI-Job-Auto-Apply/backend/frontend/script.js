@@ -146,14 +146,14 @@ function loadDashboardData() {
         <tr>
             <td>Senior Backend Engineer</td>
             <td>Tech Corp</td>
-            <td>85.5%</td>
+            <td>90.5%</td>
             <td>Applied</td>
             <td>2024-02-19</td>
         </tr>
         <tr>
             <td>Full Stack Developer</td>
             <td>StartUp Inc</td>
-            <td>72.3%</td>
+            <td>95.3%</td>
             <td>Pending</td>
             <td>2024-02-19</td>
         </tr>
