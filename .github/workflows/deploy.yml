@@ -24,12 +24,12 @@ jobs:
       
       - name: Install backend dependencies
         run: |
-          cd backend
+          cd AI-Job-Auto-Apply/backend
           pip install -r requirements.txt
       
       - name: Run backend tests
         run: |
-          cd backend
+          cd AI-Job-Auto-Apply/backend
           pytest tests/ || echo "No tests found - skipping"
   
   docker-build-and-test:
