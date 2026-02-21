@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-job-backend
+  namespace: default
+  labels:
+    app: ai-job-backend
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: ai-job-backend
+  sessionAffinity: None
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-job-backend-loadbalancer
+  namespace: default
+  labels:
+    app: ai-job-backend
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: ai-job-backend
+  sessionAffinity: None
+  externalTrafficPolicy: Local
